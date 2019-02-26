@@ -1,0 +1,147 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 30px;
+  background: #272727;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.nav ul{
+  margin: 10px 0px;
+  float: left;
+  margin-right: 100px;
+  display: flex;
+}
+
+.nav li {
+  margin: 10px;
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  color: #817A70;
+}
+
+.nav li a:hover {
+    color: white;
+}
+
+#text-search {
+  float: right;
+  margin-right: 5px;
+  border-radius: 5px 5px 5px 5px;
+  height: 30px;
+  width: 10%;
+  padding-left: 5px;
+}
+
+.search-button {
+  float: right;
+  margin-right: 15px;
+  color: green;
+  background: #272727;
+  border: 1px solid green;
+  border-radius: 5px 5px 5px 5px;
+  width: 60px;
+  height: 35px;
+}
+
+.header {
+  width: 100%;
+  margin: auto;
+  backgroun: #DDE2F8;
+}
+
+ .header h1{
+   font-size: 60px;
+   font-weight: lighter;
+   margin-top: 80px;
+   margin-bottom: 0px;;
+   margin-left: 10%;
+ }
+
+ .header p {
+   font-size: 15px;
+   font-weight: lighter;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   margin-left: 10%;
+ }
+
+ button {
+  background: #1273F7;
+  border: none;
+  margin-right: 5px;
+  border-radius: 5px 5px 5px 5px;
+  height: 50px;
+  width: 20%;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 10%;
+ }
+
+.container {
+  width: 100%;
+  height: 300px;
+  padding-top: 25%;
+}
+
+.content-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content-1 {
+  width: 33%;
+  height: 300px;
+  float: left;
+
+}
+
+.content-2 {
+  width: 33%;
+  height: 300px;
+  float: left;
+}
+
+.content-3 {
+  width: 33%;
+  height: 300px;
+  float: left;
+}
+
+.content-1 h2 {
+  text-align: center;
+}
+
+.content-2 h2 {
+  text-align: center;
+}
+
+.content-3 h2 {
+  text-align: center;
+}
+
+.content-button {
+  margin: auto;
+  margin-left: 15%;
+  background: #6C757D;
+  border: none;
+  margin-right: 5px;
+  border-radius: 5px 5px 5px 5px;
+  height: 40px;
+  width: 50%;
+  color: #fff;
+  font-size: 15px;
+}
